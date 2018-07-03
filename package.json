@@ -26,6 +26,7 @@
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.10.0",
+    "prop-types": "^15.6.2",
     "react-test-renderer": "^16.4.1",
     "selenium-standalone": "^6.15.1",
     "wdio-dot-reporter": "0.0.8",
