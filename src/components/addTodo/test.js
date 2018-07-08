@@ -12,7 +12,7 @@ describe('AddTodo component', () => {
     component = shallow(
       <AddTodo
         submitTodo={submitMock}
-      />
+      />,
     );
   });
 
