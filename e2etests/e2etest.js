@@ -1,6 +1,6 @@
 /* global it, describe, browser */
 /* eslint-disable import/no-extraneous-dependencies */
-// const expect = require('chai').expect;
+
 const expect = require('chai').expect;
 
 describe('TodoList App', () => {
@@ -11,7 +11,7 @@ describe('TodoList App', () => {
     expect(actualTitle).to.eql('Todo List');
   });
 
-  it('Should allow me to crreate a Todo', () => {
+  it('Should allow me to create a Todo', () => {
     const todoText = 'Get better at testing';
     browser.url('http://localhost:3000');
     browser.element('.todo-input').setValue(todoText);
